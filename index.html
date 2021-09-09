@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> First page in html</title>
+        <meta charset="utf-8">
+        <!-- scale the resolution to a specific value -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/managedesign.css">
+        <script src="js/managebehaviour.js" async></script>
+
+       
+    </head>
+    <style type="css/stylesheet" href="/css/managedesign.css"></style>
+    <script ></script>
+    <body>
+        <header>
+            <b> Header</b>
+        </header>
+        <!-- div is block level , always in a new line -->
+        <div class="boxsample">
+            <div id="relativeimg">
+                &#128540;
+            </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, harum repudiandae? Sed ducimus dolores eius commodi molestias expedita nesciunt tenetur fugit facere inventore? Necessitatibus qui ullam, ex obcaecati impedit iste?
+        </div>
+
+
+
+        <div>
+            <section id="testsection">
+                This is a test section, and this is sample content sample content looks like this<br> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa quod quaerat porro at quas alias adipisci consequuntur eum quam aliquid, voluptatibus consequatur. Voluptatum aliquid adipisci quae, quibusdam fugiat corrupti?
+            </section>
+
+            <section>
+                This is a another test section, and this is sample content sample content looks like this<br> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa quod quaerat porro at quas alias adipisci consequuntur eum quam aliquid, voluptatibus consequatur. Voluptatum aliquid adipisci quae, quibusdam fugiat corrupti?
+            </section>
+            This uses px for dimensions
+            
+            <img id="usingpx" src="https://images.pexels.com/photos/7046004/pexels-photo-7046004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </div>
+        <!-- span is inline -->
+        <span>
+            This uses % for dimensions
+            
+            <img id="usingpercent" src="https://images.pexels.com/photos/7046004/pexels-photo-7046004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </span>
+        <span>
+            This uses em for dimensions
+            <img id="usingem" src="https://images.pexels.com/photos/7046004/pexels-photo-7046004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        </span>
+
+        <br>
+        <br>
+
+        <div class="inputoptions">
+            <input type="button" title="button" value="its a button"><br>
+            <input id="datetimeinput" type="datetime-local" value="pick datetime"><br>
+            <input type="file" value="upload">
+            <input type="submit" value="its a submit button"><br>
+            radio button<br>
+            <input type="radio"  name="options" value="option 1">option &nbsp; &gt;1<br>
+            <input type="radio" class="abc" name="options" value="option 2">option  &nbsp; &gt;2<br>
+            basic textbox
+            <input type="text"><br>
+            A checkbox
+            <input type="checkbox" checked>
+
+        </div>
+
+        <div>
+            this is a list of items
+            <ol>
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+            </ol>
+
+            
+            
+        </div>
+        this is a next list of items, used for sibling selector eg
+            <ol>
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+            </ol>
+
+        
+        
+        <a id="externallink" href="https://dumbmagician.github.io/coursera-test/" target="blank">Link to my site</a>
+        <a id="samepagelink" href="#top">link to top and increase the font</a>
+        <br>
+        this is iframe
+        <br>
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/BVomQtrtMTM?list=RDBVomQtrtMTM" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <footer>this is footer</footer> 
+
+       <div id="testjs" class="boxsample">
+           This is before js
+           <input type="button" value="invokejs" onclick="InjectElement()">
+       </div>
+
+    </body>
+</html>

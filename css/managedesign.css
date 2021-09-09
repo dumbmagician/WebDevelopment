@@ -1,0 +1,121 @@
+/* percentage defines the amount of size based upon parent element */
+#usingpercent {
+    height: 10%;
+    width: 10%;
+}
+
+/* em defines a relative size for the parent/default font size */
+#usingem {
+    height: 4em;
+    width: 4em;
+}
+
+/* defines a fix size on screen */
+#usingpx {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.boxsample{
+    width: auto;
+    height: auto;
+    margin: 20px;
+    border: black solid 2px;
+    padding: 15px;
+    background-color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+}
+
+#relativeimg{
+    float: right;
+    margin: 10px;
+    border: black solid 1px;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    background-color: darkcyan;
+}
+
+/* combinations in picking selector */
+
+/* specific selection */
+div.inputoptions {
+    background-color: tomato;
+}
+
+/* immediate child */
+div > #datetimeinput{
+    background-color: violet;
+}
+
+/* desendent */
+div section {
+    background-color: turquoise;
+}
+
+/* sibling */
+div + ol{
+    background-color: white;
+}
+
+/* div ~ ol{
+    background-color: white;
+} */
+
+header,footer{
+    text-align: center;
+    font-size: x-large ;
+    font-weight: bold;
+}
+
+#testsection {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    border: black solid;
+    font-size: 20px;
+}
+
+input{
+    margin: 10px;
+}
+
+/* psedo class selector , works on state */
+#externallink:hover{
+    --visitedlink : white;
+    background-color:var(--visitedlink);  
+}
+
+/* pseduo element helps to manipulate element ,change not included in dom */
+#samepagelink::before{
+    content: 'psedoelement';
+}
+
+/* specificity : id>class>element>postioning */
+
+
+html {
+    background-color: skyblue;
+    font-style: italic;
+
+}
+
+a{
+    border: black solid;
+    background-color: yellow;
+    font-family: sans-serif;
+    margin: 200px;
+    font-style: normal;
+}
+
+/* * applies to each and every element in dom , can be used to reset broswer defaults */
+*{
+    /* width: 0;
+    padding: 0;
+    height: 0; */
+    box-sizing: border-box;
+}
