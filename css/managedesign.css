@@ -119,3 +119,23 @@ a{
     height: 0; */
     box-sizing: border-box;
 }
+
+/* flexbox example */
+
+.flexDivRow {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    background-color: brown;
+    align-items: center;
+}
+
+.flexDivColumn{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: brown;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}

@@ -124,7 +124,7 @@ var promise = new Promise(function(resolve,reject){
     reject();
 });
 
-//using anonymous function declaration syntax
+//using anonymous function declaration syntax (arrow functions introduced in es6)
 promise.then((p) => {
     console.log("promise passed!!!"+p);
 }).catch(() => {
@@ -154,6 +154,79 @@ async function invokeMethod(){
 invokeMethod();
 
 //checkin , app idea, react buy and study
+
+//short way to define function
+const samplenumber = number => number * 2;
+console.log(samplenumber);
+
+//function constructor and prototypes eg , (classes and inheritence)
+
+class Animal{
+    constructor(name){
+        this.Name = name;
+    };
+    sound(soundType){
+        return this.Name + soundType;
+    };
+    
+}
+
+class Pets extends Animal{
+    constructor(name,subtype){
+        super(name);
+        this.Subtype = subtype;
+    }
+
+
+}
+
+let dog = new Pets('dog','husky');
+console.log(dog.Name);
+console.log(dog.Subtype);
+console.log(dog.sound('bark'));
+
+//string functions and array functions eg, with for loops and if else
+//spread and rest operators usage
+//map filter reduce
+
+let arrSample = ['a','b','c','d'];
+arrSample.push('e');//adds a element in the end
+arrSample.pop();//removes last element
+arrSample.shift();//removes first element
+arrSample.unshift('a');//adds a element in the start
+console.log(arrSample);
+
+arrSample.splice(2,2,'f');//add at 2 pos, remove 2, then add 'f'
+console.log(arrSample);
+
+let arr2 = [...arrSample,'g','h'];//spread operator
+let arr3 = arr2.slice(1,3);
+console.log(arr2);
+console.log(arr3);
+
+console.log(arr3.reverse());
+console.log(arr3.sort());
+
+let arr4 =[1,2,5,4];
+console.log(arr4.sort(function(a,b){return a-b}));
+
+arr4 = arr4.map((item)=>{return item*2});//creates new array , performaing a function on each element (kind of select in linq)
+console.log(arr4);
+
+arr4 = arr4.filter((item)=>{return item>3});//creates new array , performaing a function on each element (kind of where in linq)
+console.log(arr4);
+
+arr4 = arr4.reduce((total,item)=>{return total+item});//creates new array , performaing a function on each element (kind of aggregation in linq)
+console.log(arr4);
+let arr5 = [22,35,4,25];
+let result = arr5.every((item)=>{return item > 20});
+console.log(result);
+result = arr5.some((item)=>{return item > 25});
+console.log(result);
+
+
+//html css projects atleast 5 basic projects
+
 
 
 
