@@ -1,0 +1,19 @@
+.HeaderSection {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  19px 5px 12px 10px rgba(0,0,0,0.81);
+}
+
+.MainSection {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    background-color:lightblue;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
