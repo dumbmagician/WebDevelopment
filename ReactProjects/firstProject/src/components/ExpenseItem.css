@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.ExpenseItemBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 12px;
+    align-items: center;
+
+}
+
+.DateBlock {
+
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: blue;
+}
+
+.NameBlock {
+    width: 30%;
+    text-align: center;
+    border: 2px solid black;
+
+    border-radius: 12px;
+    background-color: blue;
+}
+
+.AmountBlock {
+
+    border: 2px solid black;
+
+    width: 30%;
+    text-align: center;
+
+    border-radius: 12px;
+    background-color: blue;
+}

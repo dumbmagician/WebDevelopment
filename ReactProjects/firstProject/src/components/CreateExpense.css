@@ -1,0 +1,17 @@
+.formBlock{
+    font-size: x-large;
+    width: 90%;
+    height: 150px;
+    border: 2px solid black;
+}
+
+input {
+    margin-left: 50px ;
+    text-align: left;
+    height: 30px;
+}
+
+button{
+    height: 30px;
+    float: right;
+}

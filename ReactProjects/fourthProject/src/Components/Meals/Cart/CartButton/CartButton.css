@@ -1,0 +1,14 @@
+.CButton {
+    width: 10%;
+    height: 60%;
+    margin: 10%;
+}
+
+.Qty{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: yellow;
+
+}

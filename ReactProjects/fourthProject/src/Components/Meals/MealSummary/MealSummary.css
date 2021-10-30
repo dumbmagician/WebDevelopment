@@ -1,0 +1,13 @@
+.Summary{
+    margin-left: 30%;
+    width: 40%;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: white;
+    background-color: brown;
+}

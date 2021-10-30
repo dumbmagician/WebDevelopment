@@ -1,0 +1,21 @@
+.MealHeader{
+    height: 80px;
+    border: 2px solid black;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-left: 10%;
+}
+
+.FoodBackground{
+    height: 600px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+}

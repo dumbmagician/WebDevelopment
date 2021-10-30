@@ -1,0 +1,22 @@
+.dateBlock{
+    display: flex;
+    flex-direction: column;
+color: purple;
+background-color: white;
+}
+
+.year {
+    font-size: x-large;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.month{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.date{
+    text-align: center;
+    border: 2px solid black;
+}

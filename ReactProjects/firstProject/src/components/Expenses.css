@@ -1,0 +1,13 @@
+
+
+.ExpensesBlock {
+    width : 95%;
+    height: fit-content;
+    margin: 10px;
+    border : 2px solid black;
+    float: left;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: thistle;
+
+}
