@@ -225,6 +225,8 @@ result = arr5.some((item)=>{return item > 25});
 console.log(result);
 
 
+//merge sort, binary search
+
 //html css projects atleast 5 basic projects
 
 
